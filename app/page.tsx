@@ -1,7 +1,7 @@
 const features = [
   "CV Match Score",
   "Missing Skills",
-  "Cover Letter",
+  "CV Improvements",
   "Interview Prep",
 ];
 
@@ -20,28 +20,28 @@ export default function Home() {
           </p>
 
           <h1 className="animate-fade-up-delay max-w-4xl text-4xl font-bold tracking-tight md:text-6xl">
-            Match your CV to jobs and apply with confidence.
+            Know how well your CV fits a role before you apply.
           </h1>
 
           <p className="animate-fade-up-delay-2 mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-            HirePilot AI helps users upload a CV, paste a job description, get a
-            match score, identify missing skills, generate tailored CV
-            improvements, and prepare for interviews.
+            HirePilot AI analyzes your CV against a job description and gives
+            you a clear match score, missing skills, tailored CV improvements,
+            cover letter support, and interview preparation guidance.
           </p>
 
           <div className="animate-fade-up-delay-3 mt-8 flex flex-col gap-4 sm:flex-row">
             <a
-              href="/dashboard"
+              href="/job-analyzer"
               className="rounded-lg bg-white px-6 py-3 font-medium text-slate-950 transition hover:-translate-y-1 hover:bg-slate-200"
             >
-              Go to Dashboard
+              Analyze My CV
             </a>
 
             <a
-              href="/job-analyzer"
+              href="/dashboard"
               className="rounded-lg border border-slate-700 px-6 py-3 font-medium text-white transition hover:-translate-y-1 hover:bg-white/10"
             >
-              Analyze a Job
+              View Dashboard
             </a>
           </div>
 
@@ -62,7 +62,7 @@ export default function Home() {
             <div className="mb-5 flex items-center justify-between">
               <div>
                 <p className="text-sm text-slate-400">Current Analysis</p>
-                <h2 className="text-xl font-semibold">Frontend Developer</h2>
+                <h2 className="text-xl font-semibold">Full-Stack Developer</h2>
               </div>
 
               <div className="rounded-full bg-emerald-400/10 px-3 py-1 text-sm text-emerald-300">
@@ -78,7 +78,7 @@ export default function Home() {
               <div className="rounded-2xl border border-slate-800 bg-slate-950/70 p-4">
                 <p className="mb-2 text-sm text-slate-400">Strong Areas</p>
                 <p className="text-sm text-slate-200">
-                  React, API integration, dashboard experience
+                  React, API development, authentication, dashboard experience
                 </p>
               </div>
 
@@ -99,8 +99,9 @@ export default function Home() {
               <div className="rounded-2xl border border-slate-800 bg-slate-950/70 p-4">
                 <p className="mb-2 text-sm text-slate-400">AI Suggestion</p>
                 <p className="text-sm text-slate-200">
-                  Add measurable impact to project bullets and mention
-                  authentication workflows.
+                  Strengthen your project bullets with measurable impact and
+                  include more detail about backend workflows,
+                  authentication, and API design.
                 </p>
               </div>
             </div>
